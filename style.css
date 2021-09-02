@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-image: url(simple\ background.jpg);
+    background-size: cover;
+}
+
+.main-content{
+    text-align:center;
+    border: solid;
+}
+
+.top-section{
+    background-color:darkblue;
+    padding:25px 60px 25px 60px;
+    color: #ecf0f1;
+}
+
+.top-section img{
+    width: 80%;
+    height: 40%;
+    border-radius: 50%;
+}
+
+.top-section p{
+    margin: 5px 0 5px 0;
+}
+
+.top-section .name{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.top-section .email,  .phone{
+    font-size: 18px;
+}
+
+.middle-section, .bottom-section{
+    background-color: white;
+}
+
+.middle-section{
+    position: relative;
+}
+
+.social{
+    position: absolute;
+    width: 100%;
+    top: -50px;
+}
+.middle-section a{
+    text-decoration: none;
+}
+.social i{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    background-color: #2c3e50;
+    border-radius: 50%;
+    line-height: 50px;
+    margin-top: 20px;
+    margin-left:45px;
+    margin-right:47px;
+}
+
+.bottom-section{
+    padding: 30px;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.text-align-left{
+    float: left;
+}
+.tetx-align-right{
+    float:right;
+}
